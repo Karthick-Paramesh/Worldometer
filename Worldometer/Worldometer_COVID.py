@@ -46,11 +46,11 @@ def index_find(text, text_to_find, word_type):
 
 # Returns list of countries/locations for which data is available in the Worldometer
 def get_countries():
-     return (name)
+     return (name.to_list())
 
 # Returns list of country's/location's URL tags
 def get_country_url_tags():
-     return (url_tag)
+     return (url_tag.to_list())
 
 # Active Cases download country wise
 def get_country_data(tag):
